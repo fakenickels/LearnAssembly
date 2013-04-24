@@ -29,7 +29,7 @@
 		
 		movl %esp, %ecx
 		
-		# 10bytes for the name
+		# 161bytes for the name
 		subl $0x1a, %esp 
 			
 		movl $0x3, %eax
