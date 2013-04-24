@@ -30,10 +30,10 @@
 		movl %esp, %ecx
 		
 		# 10bytes for the name
-		subl $0xa4, %esp 
+		subl $0x1a, %esp 
 			
 		movl $0x3, %eax
-		movl $0xa4, %edx
+		movl $0x1a, %edx
 		int $0x80
 		
 		movl %eax, %edx
